@@ -58,6 +58,7 @@ interface ChatPanelProps {
   stop: () => void
   append: (message: Message) => void
   models?: Model[]
+  scrollContainerRef?: React.RefObject<HTMLDivElement>
 }
 
 // Helper function to get file type icon
