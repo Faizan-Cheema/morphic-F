@@ -82,7 +82,7 @@ export default async function RootLayout({
               <main className="flex flex-1 min-h-0">
                 <ArtifactRoot>{children}</ArtifactRoot>
               </main>
-              <Footer/>
+              <Footer isVisible={true} />
             </div>
           </SidebarProvider>
           <Toaster />
