@@ -59,6 +59,7 @@ interface ChatPanelProps {
   append: (message: Message) => void
   models?: Model[]
   scrollContainerRef?: React.RefObject<HTMLDivElement>
+  showScrollToBottomButton?: boolean // Added missing property
 }
 
 // Helper function to get file type icon
